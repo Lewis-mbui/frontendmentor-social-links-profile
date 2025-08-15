@@ -13,6 +13,11 @@
   --color-accent: hsl(75, 94%, 57%);
 }
 
+/* Base style */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 /* Typography */
 html {
   font-size: 62.5%;
