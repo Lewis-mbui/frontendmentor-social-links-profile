@@ -99,14 +99,29 @@ body {
   align-items: center;
 }
 
+.card__avatar {
+  margin-bottom: 2rem;
+}
+
 .card__name {
   color: var(--color-white);
   font-size: 2.4rem;
   font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.card__location {
+  color: var(--color-accent);
+  margin-bottom: 2rem;
+}
+
+.card__description {
+  color: var(--color-white);
+  margin-bottom: 2rem;
 }
 
 .card--grey {
-  background: var(--color-grey);
+  background: var(--color-dark-grey);
 }
 
 @media screen and (min-width: 768px) {
