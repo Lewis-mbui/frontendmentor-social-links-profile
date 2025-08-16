@@ -82,11 +82,13 @@ body {
   min-height: 100vh;
   padding: 3rem;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
 .card {
-  align-self: flex-start;
+  align-self: center;
   width: 100%;
   max-width: 40rem;
   border-radius: 15px;
@@ -130,3 +132,7 @@ body {
     margin: auto;
   }
 }
+
+/* utilities */
+.attribution { font-size: 11px; text-align: center; color: white; margin-top: 1rem; }
+.attribution a { color: hsl(228, 45%, 44%); }
