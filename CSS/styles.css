@@ -94,6 +94,7 @@ body {
   border-radius: 15px;
   overflow: hidden;
   padding: 3rem 2.3rem;
+  text-align: center;
 }
 
 .card__header, .card__body {
