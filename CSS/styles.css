@@ -55,9 +55,10 @@ body {
   width: 100%;
 }
 
-.btn--primary:hover {
+.btn--primary:hover, .btn--primary:focus {
   background-color: var(--color-accent);
   color: var(--color-dark-grey);
+  outline: 0;
 }
 
 /* Avatar */
