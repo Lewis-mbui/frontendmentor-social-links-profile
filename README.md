@@ -6,7 +6,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshots)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-Live Site URL: [Social Links Profile Page](https://your-live-site-url.com)
+Live Site URL: [Social Links Profile Page](https://frontendmentor-social-links-profile-ten.vercel.app/)
 
 ## My process
 
