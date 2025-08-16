@@ -25,6 +25,7 @@ html {
 
 body {
   font-size: 1.4rem;
+  margin: 0;
   font-family: Inter, Arial, Helvetica, sans-serif;
 }
 
@@ -67,4 +68,33 @@ body {
   width: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+/* Cards */
+.container {
+  background: var(--color-page);
+  width: 100%;
+  min-height: 100vh;
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  align-self: flex-start;
+  width: 100%;
+  max-width: 40rem;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 3rem 2.3rem;
+}
+
+.card--grey {
+  background: var(--color-grey);
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    margin: auto;
+  }
 }
